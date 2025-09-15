@@ -42,3 +42,10 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# 忽略所有的 .zip 文件
+*.zip
+
+# 但是，Task1.zip 和 Task2.zip 除外
+!Task1.zip
+!Task2.zip
